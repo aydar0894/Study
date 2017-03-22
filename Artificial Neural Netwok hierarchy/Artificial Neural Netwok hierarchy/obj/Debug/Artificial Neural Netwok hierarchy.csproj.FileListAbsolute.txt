@@ -1,0 +1,9 @@
+c:\users\asus\documents\visual studio 2015\Projects\Artificial Neural Netwok hierarchy\Artificial Neural Netwok hierarchy\bin\Debug\Artificial Neural Netwok hierarchy.exe.config
+c:\users\asus\documents\visual studio 2015\Projects\Artificial Neural Netwok hierarchy\Artificial Neural Netwok hierarchy\bin\Debug\Artificial Neural Netwok hierarchy.exe
+c:\users\asus\documents\visual studio 2015\Projects\Artificial Neural Netwok hierarchy\Artificial Neural Netwok hierarchy\bin\Debug\Artificial Neural Netwok hierarchy.pdb
+c:\users\asus\documents\visual studio 2015\Projects\Artificial Neural Netwok hierarchy\Artificial Neural Netwok hierarchy\obj\Debug\Artificial Neural Netwok hierarchy.csprojResolveAssemblyReference.cache
+c:\users\asus\documents\visual studio 2015\Projects\Artificial Neural Netwok hierarchy\Artificial Neural Netwok hierarchy\obj\Debug\Artificial_Neural_Netwok_hierarchy.Form1.resources
+c:\users\asus\documents\visual studio 2015\Projects\Artificial Neural Netwok hierarchy\Artificial Neural Netwok hierarchy\obj\Debug\Artificial_Neural_Netwok_hierarchy.Properties.Resources.resources
+c:\users\asus\documents\visual studio 2015\Projects\Artificial Neural Netwok hierarchy\Artificial Neural Netwok hierarchy\obj\Debug\Artificial Neural Netwok hierarchy.csproj.GenerateResource.Cache
+c:\users\asus\documents\visual studio 2015\Projects\Artificial Neural Netwok hierarchy\Artificial Neural Netwok hierarchy\obj\Debug\Artificial Neural Netwok hierarchy.exe
+c:\users\asus\documents\visual studio 2015\Projects\Artificial Neural Netwok hierarchy\Artificial Neural Netwok hierarchy\obj\Debug\Artificial Neural Netwok hierarchy.pdb

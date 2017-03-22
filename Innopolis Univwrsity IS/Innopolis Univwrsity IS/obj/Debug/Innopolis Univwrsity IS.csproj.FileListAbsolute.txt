@@ -1,0 +1,9 @@
+c:\users\asus\documents\visual studio 2015\Projects\Innopolis Univwrsity IS\Innopolis Univwrsity IS\bin\Debug\Innopolis Univwrsity IS.exe.config
+c:\users\asus\documents\visual studio 2015\Projects\Innopolis Univwrsity IS\Innopolis Univwrsity IS\obj\Debug\Innopolis Univwrsity IS.csprojResolveAssemblyReference.cache
+c:\users\asus\documents\visual studio 2015\Projects\Innopolis Univwrsity IS\Innopolis Univwrsity IS\obj\Debug\Innopolis_Univwrsity_IS.Form1.resources
+c:\users\asus\documents\visual studio 2015\Projects\Innopolis Univwrsity IS\Innopolis Univwrsity IS\obj\Debug\Innopolis_Univwrsity_IS.Properties.Resources.resources
+c:\users\asus\documents\visual studio 2015\Projects\Innopolis Univwrsity IS\Innopolis Univwrsity IS\obj\Debug\Innopolis Univwrsity IS.csproj.GenerateResource.Cache
+c:\users\asus\documents\visual studio 2015\Projects\Innopolis Univwrsity IS\Innopolis Univwrsity IS\bin\Debug\Innopolis Univwrsity IS.exe
+c:\users\asus\documents\visual studio 2015\Projects\Innopolis Univwrsity IS\Innopolis Univwrsity IS\bin\Debug\Innopolis Univwrsity IS.pdb
+c:\users\asus\documents\visual studio 2015\Projects\Innopolis Univwrsity IS\Innopolis Univwrsity IS\obj\Debug\Innopolis Univwrsity IS.exe
+c:\users\asus\documents\visual studio 2015\Projects\Innopolis Univwrsity IS\Innopolis Univwrsity IS\obj\Debug\Innopolis Univwrsity IS.pdb

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="module_weakness" default="compile.module.weakness">
+  <dirname property="module.weakness.basedir" file="${ant.file.module_weakness}"/>
+  
+  <property name="module.jdk.home.weakness" value="${project.jdk.home}"/>
+  <property name="module.jdk.bin.weakness" value="${project.jdk.bin}"/>
+  <property name="module.jdk.classpath.weakness" value="${project.jdk.classpath}"/>
+  
+  <property name="compiler.args.weakness" value="-encoding UTF-8 -source 8 -target 8 ${compiler.args}"/>
+  
+  <property name="weakness.output.dir" value="${module.weakness.basedir}/out/production/Weakness"/>
+  <property name="weakness.testoutput.dir" value="${module.weakness.basedir}/out/test/Weakness"/>
+  
+  <path id="weakness.module.bootclasspath">
+    <!-- Paths to be included in compilation bootclasspath -->
+  </path>
+  
+  <path id="weakness.module.production.classpath">
+    <path refid="${module.jdk.classpath.weakness}"/>
+  </path>
+  
+  <path id="weakness.runtime.production.module.classpath">
+    <pathelement location="${weakness.output.dir}"/>
+  </path>
+  
+  <path id="weakness.module.classpath">
+    <path refid="${module.jdk.classpath.weakness}"/>
+    <pathelement location="${weakness.output.dir}"/>
+  </path>
+  
+  <path id="weakness.runtime.module.classpath">
+    <pathelement location="${weakness.testoutput.dir}"/>
+    <pathelement location="${weakness.output.dir}"/>
+  </path>
+  
+  
+  <patternset id="excluded.from.module.weakness">
+    <patternset refid="ignored.files"/>
+  </patternset>
+  
+  <patternset id="excluded.from.compilation.weakness">
+    <patternset refid="excluded.from.module.weakness"/>
+  </patternset>
+  
+  <path id="weakness.module.sourcepath">
+    <dirset dir="${module.weakness.basedir}">
+      <include name="src"/>
+    </dirset>
+  </path>
+  
+  
+  <target name="compile.module.weakness" depends="compile.module.weakness.production,compile.module.weakness.tests" description="Compile module Weakness"/>
+  
+  <target name="compile.module.weakness.production" depends="register.custom.compilers" description="Compile module Weakness; production classes">
+    <mkdir dir="${weakness.output.dir}"/>
+    <javac2 destdir="${weakness.output.dir}" debug="${compiler.debug}" nowarn="${compiler.generate.no.warnings}" memorymaximumsize="${compiler.max.memory}" fork="true" executable="${module.jdk.bin.weakness}/javac">
+      <compilerarg line="${compiler.args.weakness}"/>
+      <bootclasspath refid="weakness.module.bootclasspath"/>
+      <classpath refid="weakness.module.production.classpath"/>
+      <src refid="weakness.module.sourcepath"/>
+      <patternset refid="excluded.from.compilation.weakness"/>
+    </javac2>
+    
+    <copy todir="${weakness.output.dir}">
+      <fileset dir="${module.weakness.basedir}/src">
+        <patternset refid="compiler.resources"/>
+        <type type="file"/>
+      </fileset>
+    </copy>
+  </target>
+  
+  <target name="compile.module.weakness.tests" depends="register.custom.compilers,compile.module.weakness.production" description="compile module Weakness; test classes" unless="skip.tests"/>
+  
+  <target name="clean.module.weakness" description="cleanup module">
+    <delete dir="${weakness.output.dir}"/>
+    <delete dir="${weakness.testoutput.dir}"/>
+  </target>
+</project>

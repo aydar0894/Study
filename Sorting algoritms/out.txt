@@ -1,0 +1,21 @@
+BubbleSort, 9 items : 9086
+Selection, 9 items : 9877
+Quick sort, 9 items : 11062
+BubbleSort, 50 items : 63605
+Selection, 50 items : 35950
+Quick sort, 50 items : 20939
+BubbleSort, 5000 items : 37285487
+Selection, 5000 items : 20363432
+Quick sort, 5000 items : 1419850
+BubbleSort, 200 items : 1035850
+Selection, 200 items : 572839
+Quick sort, 200 items : 66766
+BubbleSort, 500 items : 2875256
+Selection, 500 items : 2113578
+Quick sort, 500 items : 113778
+BubbleSort, 1500 items : 6264487
+Selection, 1500 items : 5976487
+Quick sort, 1500 items : 330271
+BubbleSort, 2500 items : 8504878
+Selection, 2500 items : 9801075
+Quick sort, 2500 items : 743505

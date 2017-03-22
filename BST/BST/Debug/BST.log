@@ -1,0 +1,4 @@
+﻿  Source.cpp
+c:\users\asus\documents\visual studio 2015\projects\bst\bst\source.cpp(65): warning C4244: return: преобразование "double" в "int", возможна потеря данных
+c:\users\asus\documents\visual studio 2015\projects\bst\bst\source.cpp(70): warning C4715: treeHeight: значение возвращается не при всех путях выполнения
+  BST.vcxproj -> C:\Users\ASUS\Documents\Visual Studio 2015\Projects\BST\Debug\BST.exe

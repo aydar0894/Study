@@ -1,0 +1,3 @@
+﻿  main.c
+c:\users\asus\documents\visual studio 2015\projects\linkedlist\linkedlist\linkedlist.h(11): warning C4091: typedef : пропускается слева от "listNode", когда ни одна переменная не объявлена
+  LinkedList.vcxproj -> c:\users\asus\documents\visual studio 2015\Projects\LinkedList\Debug\LinkedList.exe

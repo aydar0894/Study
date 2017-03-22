@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Artificial_Neural_Netwok_hierarchy.ANN.Artificial_Intellegence_Programm" Collapsed="true">
+    <Position X="0.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAgAAAAAAAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ANN\Artificial Intellegence Programm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Artificial_Neural_Netwok_hierarchy.ANN.Artificial_Neural_Network" Collapsed="true">
+    <Position X="5.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAIAAAAAIAAAAAABAAAAAAQAAIAAA=</HashCode>
+      <FileName>ANN\Artificial Neural Network.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Artificial_Neural_Netwok_hierarchy.ANN.Associative_Memory_ANN" Collapsed="true">
+    <Position X="3" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAA=</HashCode>
+      <FileName>ANN\Associative Memory ANN.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Artificial_Neural_Netwok_hierarchy.ANN.Classification_ANN" Collapsed="true">
+    <Position X="7.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAABAAAAAAA=</HashCode>
+      <FileName>ANN\Classification ANN.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Artificial_Neural_Netwok_hierarchy.ANN.Computer_Programm" Collapsed="true">
+    <Position X="4" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAEAAAAAAAAABAAACAAAAAAAAAAA=</HashCode>
+      <FileName>ANN\Computer Programm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Artificial_Neural_Netwok_hierarchy.ANN.Neuron" Collapsed="true">
+    <Position X="0.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAgAAEQIAAAgAAAAAAAAAAA=</HashCode>
+      <FileName>ANN\Neuron.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Artificial_Neural_Netwok_hierarchy.ANN.Programm" Collapsed="true">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ANN\Programm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Artificial_Neural_Netwok_hierarchy.ANN.Representation_ANN" Collapsed="true">
+    <Position X="5.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAABAAAAAAA=</HashCode>
+      <FileName>ANN\Representation ANN.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Interface Name="Artificial_Neural_Netwok_hierarchy.ANN.Learnable_Supervised" Collapsed="true">
+    <Position X="8.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAgA=</HashCode>
+      <FileName>ANN\Learnable Supervised.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Artificial_Neural_Netwok_hierarchy.ANN.Learnable_Unsupervised" Collapsed="true">
+    <Position X="10.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAA=</HashCode>
+      <FileName>ANN\Learnable Unsupervised.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Artificial_Neural_Netwok_hierarchy.ANN.Learnable" Collapsed="true">
+    <Position X="9.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAABAAAAAA=</HashCode>
+      <FileName>ANN\Learnable.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

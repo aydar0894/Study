@@ -1,0 +1,28 @@
+
+       // returns.add(graph.maxFlow(graph.posInMatrix.get(lines[0]),graph.posInMatrix.get(lines[1]),matrix ));
+        // ArrayList<BFSNode<String, Edge>> res =   graph.BFS(lines[0],lines[1]);
+
+        /*                amountOfGoods = Double.parseDouble(lines[2]);
+                        totalTime+=res.get(res.size()-1).total.time;
+                        totalPrice+=res.get(res.size()-1).total.price*amountOfGoods;
+                        temp += lines[0] + " " + lines[1] + " " + amountOfGoods + " " + totalTime + " " + totalPrice;
+                         resultString.add(temp);*/
+
+       /* for(int j = 0;j<toOutput.size();j++)
+        {
+            fw.write(toOutput.get(j)+ " " + returns.get(j) + "\n");
+        }*/
+
+
+
+        for(int j = 0;j<toOutput.size();j++)
+        {
+            fw.write(toOutput.get(j)+ " " + returns.get(j) + "\n");
+        }*/
+
+
+/* FileWriter fw = new FileWriter(new File("output.txt"));
+        /*for(int j = 0;j<toOutput.size();j++)
+        {
+            fw.write(resultString.get(j) + "\n");
+        }*/
